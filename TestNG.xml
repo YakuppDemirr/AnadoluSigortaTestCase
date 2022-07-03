@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Anadolu Sigorta UI Assignment Suite">
+    <test name = "Anadolu Sigorta UI Assignment Tests">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name="com.anadolusigorta.studycase.AnadoluSigortaTestAutomation"/>
+            <class name="com.anadolusigorta.studycase.AnadoluSigortaTestAutomation2"/>
+            <class name="com.anadolusigorta.studycase.AnadoluSigortaTestAutomation3"/>
+            <class name="com.anadolusigorta.studycase.AnadoluSigortaTestAutomation4"/>
+        </classes>
+    </test>
+</suite>
